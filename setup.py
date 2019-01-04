@@ -2,7 +2,7 @@
 import distutils
 
 setup(
-    name='CheckiOAnswers',
+    name='checkioanswers',
     version='0.1.0',
     author='Pat Hermens',
     author_email='p@hermens.com.au',
@@ -11,10 +11,12 @@ setup(
     url='https://github.com/PHeonix25/CheckiOAnswers',
     license='LICENSE.txt',
     description='My answers to the CheckiO challenges at https://py.checkio.org/.',
-    long_description=open('README.txt').read(),
     install_requires=[
-        "click==6.7",
+        "click",
         "py==1.4.34",
         "pytest==3.2.3"
     ],
+    entry_points='''
+        checkioanswers=checkioanswers:list
+    ''',
 )
