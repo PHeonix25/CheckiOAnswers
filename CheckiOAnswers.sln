@@ -9,7 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tests", "tests\Tests.pyproj", "{AD16D08D-F243-411F-AA74-7A122F0D3F42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +24,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C4CA20B2-D564-4EDC-B153-AE394F8A6905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C4CA20B2-D564-4EDC-B153-AE394F8A6905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD16D08D-F243-411F-AA74-7A122F0D3F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD16D08D-F243-411F-AA74-7A122F0D3F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

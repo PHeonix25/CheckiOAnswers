@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c4ca20b2-d564-4edc-b153-ae394f8a6905</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>CheckIOAnswers.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,15 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="01-HousePassword.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="02-TheMostWantedLetter.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="03-NonUniqueElements.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="answers\01-HousePassword.py" />
+    <Compile Include="answers\02-TheMostWantedLetter.py" />
+    <Compile Include="answers\03-NonUniqueElements.py" />
+    <Compile Include="CheckIOAnswers.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="answers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
