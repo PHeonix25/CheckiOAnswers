@@ -4,10 +4,13 @@
 
 CheckIOAnswers is a Python CLI application generated from https://github.com/xuanluong/cookiecutter-python-cli that will host my answers to the CheckiO Python challenges (https://py.checkio.org/)
 
+## Background 
+
 This is just a simple app that's helping me to learn about Python, how applications are structured/developed/built/packaged/published, etc.
 
-This application is developed in VS2017, so that's why you'll see all the *.pysln files. 
-Feel free to contribute a PR with your editor of choice if you're using something different?
+This application is developed in VS2017, so that's why you'll see all the *.sln files. 
+Feel free to contribute a PR with your editor of choice if you're using something different, or correct my layout/structure.
+Like I said, this is my chance to learn how things are "supposed" to be developed in Python.
 
 ## Basic setup
 
