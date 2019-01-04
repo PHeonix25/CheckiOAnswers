@@ -15,7 +15,7 @@ def list():
     for root, dirs, files in os.walk('.'):
         for filename in files:
             if (filename.endswith(".py") and filename[0].isdigit()):
-                click.echo("\t" + filename)
+                click.echo("\t" + os.path.join(root, filename))
 
 @checkioanswers.command()
 @click.argument('filename')
@@ -27,7 +27,11 @@ def run(filename: str):
 
     click.echo('Requested to run \'%s\':' % filename)
     click.echo('')
-    exec(open(filename).read(), globals())        
+    exec(open(filename).read(), globals())
+
+    click.echo('')
+    click.echo(click.style('File has been run. Exiting now.', fg='green', bold=True))
+
 
 if __name__ == '__main__':
     checkioanswers()
