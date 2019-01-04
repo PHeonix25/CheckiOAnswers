@@ -21,13 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="answers\01-HousePassword.py" />
-    <Compile Include="answers\02-TheMostWantedLetter.py" />
-    <Compile Include="answers\03-NonUniqueElements.py" />
+    <Compile Include="answers\electronic-station\01-Brackets.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="answers\home\01-HousePassword.py" />
+    <Compile Include="answers\home\02-TheMostWantedLetter.py" />
+    <Compile Include="answers\home\03-NonUniqueElements.py" />
     <Compile Include="CheckIOAnswers.py" />
+    <Compile Include="setup.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="answers\" />
+    <Folder Include="answers\home\" />
+    <Folder Include="answers\electronic-station\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
