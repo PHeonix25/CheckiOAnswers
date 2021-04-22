@@ -13,7 +13,7 @@ setup(
     description='My answers to the CheckiO challenges at https://py.checkio.org/.',
     install_requires=[
         "click",
-        "py==1.4.34",
+        "py==1.10.0",
         "pytest==3.2.3"
     ],
     entry_points='''
