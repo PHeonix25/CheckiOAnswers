@@ -2,4 +2,4 @@
 
 click
 py==1.10.0
-pytest==3.2.3
+pytest==9.0.3
