@@ -1,4 +1,4 @@
-﻿from distutils.core import setup
+from distutils.core import setup
 import distutils
 
 setup(
@@ -14,7 +14,7 @@ setup(
     install_requires=[
         "click",
         "py==1.10.0",
-        "pytest==3.2.3"
+        "pytest==9.0.3"
     ],
     entry_points='''
         checkioanswers=checkioanswers:list
